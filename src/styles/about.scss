@@ -1,0 +1,14 @@
+.aboutBox{
+    margin: 2rem;
+    height: 30rem;
+    width: 80rem;
+    box-shadow: 2px 2px 5px 5px rgb(129, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutBox h2{
+    text-shadow: 3px 1px rgb(129, 6, 12);
+    font-size: 5rem;
+}

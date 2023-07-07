@@ -1,0 +1,134 @@
+.section_padding {
+    padding: 4rem 4rem;
+}
+
+.footer {
+    background-color: rgba(25, 14, 185, 0.986);
+}
+
+.sub_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sub_footer_links_div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+
+.footer a {
+    color: rgb(228, 215, 215);
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia p {
+    width: 20%;
+}
+
+.sub_footer_links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.sub_footer_links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.sub_footer_below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.sub_footer_below_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_footer_below_links p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+hr {
+    color: white !important;
+    width: 100%;
+}
+
+.sub_footer_copyright {
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+    .sub_footer-heading h1 {
+        font-size: 44px;
+        list-style: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sub_footer-heading h1 {
+        font-size: 34px;
+        list-style: 42px;
+    }
+
+    .sub_footer_links div {
+        margin: 1rem 0;
+    }
+
+    .sub_footer_btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sub_footer_below {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sub_footer_below_links {
+        flex-direction: column;
+    }
+
+    .sub_footer_below_links p {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 400) {
+    .sub_footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}

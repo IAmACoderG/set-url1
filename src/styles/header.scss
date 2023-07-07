@@ -1,0 +1,121 @@
+nav {
+    height: 7rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(22, 1, 1, 0.747);
+    background-color: rgba(25, 14, 185, 0.986);
+    // box-shadow: 0 0 10px rgba(22, 1, 1, 0.747);
+    // background-color: white;
+
+    >div {
+
+        font-size: 1.5rem;
+        padding-left: 1rem;
+
+        >a {
+            margin: 0 1rem;
+        }
+        :hover{
+            color: rgba(248, 223, 236, 0.925);
+        }
+
+    }
+}
+
+.logo {
+    font-size: 5rem;
+    color: rgba(248, 223, 236, 0.925);
+}
+
+
+@media screen and (max-width:700px){
+    nav {
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(22, 1, 1, 0.747);
+    background-color:rgb(26, 12, 230);
+    // box-shadow: 0 0 10px rgba(22, 1, 1, 0.747);
+    // background-color: white;
+
+    >div {
+
+        font-size: 1rem;
+        padding-left: 1rem;
+
+        >a {
+            margin: 0 1rem;
+        }
+
+    }
+}
+
+
+.logo {
+    font-size: 3rem;
+}
+}
+
+
+@media screen and (max-width:550px){
+    nav {
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(22, 1, 1, 0.747);
+    background-color: rgb(47, 44, 221);
+    // box-shadow: 0 0 10px rgba(22, 1, 1, 0.747);
+    // background-color: white;
+
+    >div {
+
+        font-size: 0.6rem;
+        padding-left: 1rem;
+
+        >a {
+            margin: 0 1rem;
+        }
+
+    }
+}
+
+
+.logo {
+    font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width:390px){
+    nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(22, 1, 1, 0.747);
+    background-color: rgb(47, 44, 221);
+    // box-shadow: 0 0 10px rgba(22, 1, 1, 0.747);
+    // background-color: white;
+
+    >div {
+
+        font-size: 0.6rem;
+        padding-left: 0.4rem;
+
+        >a {
+            margin: 0 1rem;
+        }
+
+    }
+}
+
+
+.logo {
+    font-size: 1.6rem;
+}
+}
